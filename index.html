@@ -6,16 +6,18 @@
     <title>to-do-list</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body> 
+    <h2 class="title">Daily Tasks</h2> 
     <div class="container">
-      <h2>To Do List App</h2>
-      <p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
+      <p><em>*Double click on an item to cross it off</em></p> 
+      <p><em>*Click on "X" to delete an item </em> </p> 
+      <p><em>*Drag items to reorder</em></p>
 
       <form name="toDoList">
-        <input type="text" name="ListItem" id="input"/>
+        <input type="text" name="ListItem" class="input" id="input"/>
       </form>
 
-      <div onclick="newItem()" id="button">
+      <div onclick="newItem()" class="button" id="button">
         Add
       </div> <br/>
       <ol id="list"></ol>

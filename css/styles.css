@@ -1,40 +1,61 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+	background-color: antiquewhite;
+	font-family: 'Kalam', cursive;
 }
 
 .container {
-padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-background: white;
-border-radius: 5px;
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	/* margin-top: 20px; */
+	background-color: antiquewhite;
+	border-radius: 5px;
+}
+
+.title {
+	font-weight: 800;
+	font-size: 70px;
+	color: #5C90A4;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+p {
+	color: #5C90A4;
+	font-weight: 600;
 }
 
 form {
-display: inline-block;
+	display: inline-block;
 }
 
 input{
-padding: 4px 15px 4px 5px;
+	padding: 4px 15px 4px 5px;
+	border-radius: 5px;
+	height: 22px;
+	width: 180px;
+	margin-top: 20px;
 }
 
 #button{
-display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
-border-radius: 5px;
-text-align:center;
-margin-top:2px;
-padding: 5px 15px;
+	display: inline-block;
+	background-color:#ff7d7f;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+	padding: 5px 15px;
+	width: 50px;
 }
 
 #button:hover {
-cursor: pointer;
-opacity: .8;
+	cursor: pointer;
+	opacity: .8;
 }
 
 ol {
@@ -42,7 +63,8 @@ ol {
 }
 
 ol li {
-  padding: 5px;color:#000;
+  padding: 5px;
+  color:#5C90A4;
 }
 
 ol li:nth-child(even){
@@ -59,6 +81,14 @@ li:hover {
 
 .delete {
 	display: none;
+}
+
+.crossOutButton {
+	background-color: #ff7d7f;
+	color: white;
+	border-radius: 5px;
+	float: right;
+	
 }
 
 li > crossOutButton {

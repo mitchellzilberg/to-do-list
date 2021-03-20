@@ -5,11 +5,16 @@ function newItem() {
   let inputValue = $('#input').val();
   li.append(inputValue);
 
+  // trying to clear input after adding li
+
+  // document.getElementById('myInput').value = "";
+
   if (inputValue === '') {
     alert('You must write something!');
   } else {
     $('#list').append(li);
   }
+
 
   // Crossing out an item from the list of items
   function crossOut() {
