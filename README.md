@@ -1,0 +1,1 @@
+A simple to-do app that lets you add and display a to-do item to an array. You are able to cross out the item by double clicking on it. You can also delete it by pressing the 'X' button.

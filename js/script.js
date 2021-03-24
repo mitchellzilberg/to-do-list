@@ -1,9 +1,12 @@
+
+
 //JQuery Translation
 function newItem() {
   // Adding a new item to the list of items
   let li = $('<li></li>');
   let inputValue = $('#input').val();
   li.append(inputValue);
+  // clearInput(inputValue);
 
   // trying to clear input after adding li
 
@@ -14,6 +17,10 @@ function newItem() {
   } else {
     $('#list').append(li);
   }
+
+  // function clearInput(inputValue) {
+  //   input.inputValue.value = '';
+  // }
 
 
   // Crossing out an item from the list of items
